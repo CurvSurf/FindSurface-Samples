@@ -14,9 +14,9 @@ The samples are designed to show examples of how to develop an application using
 GETTING STARTED
 ---------------
 
-1. Register as a developer in our [developer register website](https://developers.curvsurf.com/register.jsp).
+1. Register as a developer in our [developers website](https://developers.curvsurf.com/register.jsp).
 
-2. You have to get a trial license or to purchase standard/pro license of the SDK in [here]().
+2. To run these samples, you must get a trial license or to purchase standard/pro license of the SDK in [developers website](https://developers.curvsurf.com/) after you sign in.
 
 3. Download the SDK following the instructions on the [Documentation](https://developers.curvsurf.com/documentation.jsp) > Installation.
 
