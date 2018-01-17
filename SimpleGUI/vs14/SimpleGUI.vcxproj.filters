@@ -1,0 +1,142 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{15f19879-6cbc-418f-86de-cfb376d99fdf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\glwin">
+      <UniqueIdentifier>{854e7ec5-d2a1-498e-ac38-314115fea788}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\glwin\wgl">
+      <UniqueIdentifier>{cc04bd3c-7c68-40bb-b95e-e03f15fb1301}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\workspace">
+      <UniqueIdentifier>{a1a7648d-ec71-4c97-8609-68fb5fd8e8d2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\workspace\DataManager">
+      <UniqueIdentifier>{502c6790-dbd4-4a48-942c-4be6f130c8e2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\workspace\SceneManager">
+      <UniqueIdentifier>{1c32e9ad-b298-4d32-9d2f-cb76cea02496}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\glwin\math">
+      <UniqueIdentifier>{933daf55-a5b7-4e6f-bc6b-5e95aa7c3423}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\glwin\util">
+      <UniqueIdentifier>{0bed4c67-8173-40b6-bb87-f55ea9cab5e4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\src\glmain.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\glwin\glutil.c">
+      <Filter>src\glwin</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\glwin\main.c">
+      <Filter>src\glwin</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\glwin\wgl\glWinW.c">
+      <Filter>src\glwin\wgl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\glwin\wgl\WEvtProc.c">
+      <Filter>src\glwin\wgl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\xyz_reader.c">
+      <Filter>src\workspace\DataManager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\glwin\floatMatrix.c">
+      <Filter>src\glwin\math</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\glwin\floatVector3.c">
+      <Filter>src\glwin\math</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\glwin\camera.c">
+      <Filter>src\glwin\util</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\glwin\common_util.c">
+      <Filter>src\glwin\util</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\glwin\timer.c">
+      <Filter>src\glwin\util</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\dataManager.c">
+      <Filter>src\workspace\DataManager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\sceneManager.c">
+      <Filter>src\workspace\SceneManager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\renderObjectFactory.c">
+      <Filter>src\workspace\SceneManager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\pointCloudRenderer.c">
+      <Filter>src\workspace\SceneManager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\customMeshRenderer.c">
+      <Filter>src\workspace\SceneManager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\opt_parser.c">
+      <Filter>src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\src\proc.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\glwin\dbg_print.h">
+      <Filter>src\glwin</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\glwin\glutil.h">
+      <Filter>src\glwin</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\glwin\glWin.h">
+      <Filter>src\glwin</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\glwin\keycode.h">
+      <Filter>src\glwin</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\xyz_reader.h">
+      <Filter>src\workspace\DataManager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\glwin\floatVector3.h">
+      <Filter>src\glwin\math</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\glwin\floatMatrix.h">
+      <Filter>src\glwin\math</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\glwin\common_util.h">
+      <Filter>src\glwin\util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\glwin\camera.h">
+      <Filter>src\glwin\util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\glwin\timer.h">
+      <Filter>src\glwin\util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\dataManager.h">
+      <Filter>src\workspace\DataManager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\sceneManager.h">
+      <Filter>src\workspace\SceneManager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\renderObject.h">
+      <Filter>src\workspace\SceneManager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\renderObjectFactory.h">
+      <Filter>src\workspace\SceneManager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\pointCloudRenderer.h">
+      <Filter>src\workspace\SceneManager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\customMeshRenderer.h">
+      <Filter>src\workspace\SceneManager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\opt_parser.h">
+      <Filter>src</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
