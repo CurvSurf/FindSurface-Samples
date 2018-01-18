@@ -48,9 +48,9 @@ Look at the details below and you will be able to assign these arguments and run
 
 The example 1 means that the program sets accuracy to 2 mm, mean distance to 100 mm, touch radius step to 20 mm respectively. There are two options which the program will cause a failure:
 
-1. If a user gives a filename, then the program will search for the file. If the file does not exist, then the program will result a failure.
+1. If a user gives a filename, then the program will search for the file. If the file does not exist, then the program will cause a failure.
 
-2. If a user does not give a filename, then the program will search for the default file "sample.xyz". If the file does not exist, then the program will result a failure.
+2. If a user does not give a filename, then the program will search for the default file "sample.xyz". If the file does not exist, then the program will cause a failure.
 
 
 ### Getting Started to develop your own application
