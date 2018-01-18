@@ -6,9 +6,9 @@ Overview
 
 **Curv*Surf* FindSurface™ SDK** is a dimensional (3D) point cloud processing library.
 
-The SDK allows the development of solutions for automated 3D geometry recognition, measurement and tracking applications. The library supports geometric feature detection such as Plane, Sphere, Cylinder, Cone, and Torus with geometric parameters (position, orientation, size, radius, volume, and etc.).
+The SDK allows the development of solutions for automated 3D geometry recognizing, measuring, and tracking applications. The library allows an user to detect geometry features such as Plane, Sphere, Cylinder, Cone, and Torus as well as their geometric parameters (position, orientation, size, radius, volume, and etc.).
 
-The samples are designed to show examples of how to develop an application using the SDK.
+The samples listed above are designed to demonstrate how to develop an application by using our FindSurface SDK.
 
 
 GETTING STARTED
@@ -16,11 +16,11 @@ GETTING STARTED
 
 1. Register as a developer in our [developers website](https://developers.curvsurf.com/register.jsp).
 
-2. To run these samples, you must get a trial license or to purchase standard/pro license of the SDK in [developers website](https://developers.curvsurf.com/) after you sign in.
+2. Either get a trial license or purchase standard/pro license of the SDK in [developers website](https://developers.curvsurf.com/) in order to run the samples.
 
 3. Download the SDK following the instructions on the [Documentation](https://developers.curvsurf.com/documentation.jsp) > Installation.
 
-4. Our [developer website](https://developers.curvsurf.com/documentation.jsp) provides guides on the SDK.
+4. Follow our SDK guidance provided on our [developer website](https://developers.curvsurf.com/documentation.jsp).
 
 
 CONTACT
