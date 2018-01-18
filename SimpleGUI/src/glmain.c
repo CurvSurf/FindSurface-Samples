@@ -324,7 +324,7 @@ static void PrintFindSurfaceResult(const FS_FEATURE_RESULT *pResult)
 	switch (pResult->type)
 	{
 	case FS_TYPE_PLANE:
-		printf("\tPLNAE: w(%g), h(%g)\n",
+		printf("\tPLANE: w(%g), h(%g)\n",
 			_getLength(
 				pResult->plane_param.ul[0], pResult->plane_param.ul[1], pResult->plane_param.ul[2],
 				pResult->plane_param.ur[0], pResult->plane_param.ur[1], pResult->plane_param.ur[2]
