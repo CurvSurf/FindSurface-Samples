@@ -4,35 +4,36 @@
 Overview
 --------
 
-This sample provides developers an example of application with graphic user interfaces that allows users to interact with the application.
+This sample code provides an example of GUI application, which it benefits users to interact and manipulate the application.
 
-The sample is implemented for Windows and Linux environments.
+The sample code is for Windows and Linux environments.
 
-The sample program allows users to click a surface on a rendered point cloud to begin detecting the parametric model of the surface.
+The sample program will allow users to obtain the following data:
 
-**The sample will not work without SDK library files (FindSurface.dll, etc.).
-You must [purchase a license](https://developers.curvsurf.com/licenses.jsp) (or [request a free trial](http://developers.curvsurf.com/licenses.jsp)) to download and activate the library file.**
+once a user clicks a surface on a rendered point cloud, then the program detects **the parametric model** of the surface.
+
+**The sample program only runs with our FindSurface SDK library files (FindSurface.dll, etc.).**
+
+**You must either [request a free trial](http://developers.curvsurf.com/licenses.jsp) or [purchase a license](https://developers.curvsurf.com/licenses.jsp) to activate the library files.**
 
 
 Quick Start
 ------------
 
-### How to run the demo program
-
-The program receives the following command line arguments:
+Once you build the sample code, a demo program will be made and it requires the following command arguments:
 	
   - accuracy
   - mean-distance
   - touch-radius-step
   - point-cloud-filename
 
-The "accuracy" and "mean-distance" are the parameters of FindSurface. See "C APIs" > Enumerations > Parameter at [here](https://developers.curvsurf.com/documentation.jsp) for more details.
+"Accuracy" and "Mean-distance" are the parameters of FindSurface. See "C APIs" > Enumerations > Parameter at [here](https://developers.curvsurf.com/documentation.jsp) for more details.
 
-The "touch-radius-step" is a step value of when you change touch radius. 
+"Touch-radius-step" is a step value of when you change touch radius. 
 
-The "point-cloud-filename" is the file to load in the program.
+"Point-cloud-filename" is the file to load in the program.
 
-The usage to set this arguments is as follows:
+Look at the details below and you will be able to assign these arguments and run the program:
 
 	usage: SimpleGUI.exe [options <option-value>] [point-cloud-filename]
 		options:
@@ -41,11 +42,15 @@ The usage to set this arguments is as follows:
 			-s 		touch radius step (the default value is 0.01, which represents 10 mm)
 
 		point-cloud-filename:
-			<filename>.xyz 		it will try to find "sample.xyz", if omitted.
+			<filename.xyz> 		it will try to find "sample.xyz", if omitted.
 
-	example: SimpleGUI.exe -a 0.002 -s 0.02 -d 0.1 
+	example 1: SimpleGUI.exe -a 0.002 -s 0.02 -d 0.1 
 
-The example will results that the program sets accuracy to 2 mm, mean distance to 100 mm, touch radius step to 20 mm respectively, and tries to find the default file "sample.xyz" since no filename is given. It will fail if the file cannot be found.
+The example 1 means that the program sets accuracy to 2 mm, mean distance to 100 mm, touch radius step to 20 mm respectively. There are two options which the program will cause a failure:
+
+1. If a user gives a filename, then the program will search for the file. If the file does not exist, then the program will result a failure.
+
+2. If a user does not give a filename, then the program will search for the default file "sample.xyz". If the file does not exist, then the program will result a failure.
 
 
 ### Getting Started to develop your own application
@@ -56,4 +61,4 @@ Our [developer website](https://developers.curvsurf.com/documentation.jsp) provi
 CONTACT
 -------
 
-Send an email to support@curvsurf.com, to contact our support team.
+Send an email to support@curvsurf.com to contact our support team.
