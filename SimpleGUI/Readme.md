@@ -10,8 +10,8 @@ The sample is implemented for Windows and Linux environments.
 
 The sample program allows users to click a surface on a rendered point cloud to begin detecting the parametric model of the surface.
 
-	**The sample will not work without SDK library files (FindSurface.dll, etc.).
-	You must [purchase a license]() (or [request a free trial]()) to download and activate the library file.**
+**The sample will not work without SDK library files (FindSurface.dll, etc.).
+You must [purchase a license](https://developers.curvsurf.com/licenses.jsp) (or [request a free trial](http://developers.cuvsurf.com/licenses.jsp)) to download and activate the library file.**
 
 
 Quick Start
@@ -46,8 +46,6 @@ The usage to set this arguments is as follows:
 	example: SimpleGUI.exe -a 0.002 -s 0.02 -d 0.1 
 
 The example will results that the program sets accuracy to 2 mm, mean distance to 100 mm, touch radius step to 20 mm respectively, and tries to find the default file "sample.xyz" since no filename is given. It will fail if the file cannot be found.
-
-- [ ] TODO: 데모 프로그램을 빌드 및 실행하는데 필요한 추가 사항을 기재한다. -dll은 별도이므로 얻는 방법 등 표기
 
 
 ### Getting Started to develop your own application
