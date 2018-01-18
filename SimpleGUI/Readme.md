@@ -11,7 +11,7 @@ The sample is implemented for Windows and Linux environments.
 The sample program allows users to click a surface on a rendered point cloud to begin detecting the parametric model of the surface.
 
 **The sample will not work without SDK library files (FindSurface.dll, etc.).
-You must [purchase a license](https://developers.curvsurf.com/licenses.jsp) (or [request a free trial](http://developers.cuvsurf.com/licenses.jsp)) to download and activate the library file.**
+You must [purchase a license](https://developers.curvsurf.com/licenses.jsp) (or [request a free trial](http://developers.curvsurf.com/licenses.jsp)) to download and activate the library file.**
 
 
 Quick Start
