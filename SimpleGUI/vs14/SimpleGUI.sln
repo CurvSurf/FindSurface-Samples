@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SimpleGUI", "SimpleGUI.vcxproj", "{2864FE1B-28A1-4DAA-9C1E-FE8FC4D1447A}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SimpleGUILinux", "SimpleGUILinux.vcxproj", "{22A7629B-1C6C-4DE2-ABE7-1C8362B81C65}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|ARM = Debug|ARM
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|ARM = Release|ARM
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2864FE1B-28A1-4DAA-9C1E-FE8FC4D1447A}.Debug|ARM.ActiveCfg = Debug|Win32
+		{2864FE1B-28A1-4DAA-9C1E-FE8FC4D1447A}.Debug|x64.ActiveCfg = Debug|x64
+		{2864FE1B-28A1-4DAA-9C1E-FE8FC4D1447A}.Debug|x64.Build.0 = Debug|x64
+		{2864FE1B-28A1-4DAA-9C1E-FE8FC4D1447A}.Debug|x86.ActiveCfg = Debug|Win32
+		{2864FE1B-28A1-4DAA-9C1E-FE8FC4D1447A}.Debug|x86.Build.0 = Debug|Win32
+		{2864FE1B-28A1-4DAA-9C1E-FE8FC4D1447A}.Release|ARM.ActiveCfg = Release|Win32
+		{2864FE1B-28A1-4DAA-9C1E-FE8FC4D1447A}.Release|x64.ActiveCfg = Release|x64
+		{2864FE1B-28A1-4DAA-9C1E-FE8FC4D1447A}.Release|x64.Build.0 = Release|x64
+		{2864FE1B-28A1-4DAA-9C1E-FE8FC4D1447A}.Release|x86.ActiveCfg = Release|Win32
+		{2864FE1B-28A1-4DAA-9C1E-FE8FC4D1447A}.Release|x86.Build.0 = Release|Win32
+		{22A7629B-1C6C-4DE2-ABE7-1C8362B81C65}.Debug|ARM.ActiveCfg = Debug|ARM
+		{22A7629B-1C6C-4DE2-ABE7-1C8362B81C65}.Debug|ARM.Build.0 = Debug|ARM
+		{22A7629B-1C6C-4DE2-ABE7-1C8362B81C65}.Debug|x64.ActiveCfg = Debug|x64
+		{22A7629B-1C6C-4DE2-ABE7-1C8362B81C65}.Debug|x64.Build.0 = Debug|x64
+		{22A7629B-1C6C-4DE2-ABE7-1C8362B81C65}.Debug|x86.ActiveCfg = Debug|x86
+		{22A7629B-1C6C-4DE2-ABE7-1C8362B81C65}.Debug|x86.Build.0 = Debug|x86
+		{22A7629B-1C6C-4DE2-ABE7-1C8362B81C65}.Release|ARM.ActiveCfg = Release|ARM
+		{22A7629B-1C6C-4DE2-ABE7-1C8362B81C65}.Release|ARM.Build.0 = Release|ARM
+		{22A7629B-1C6C-4DE2-ABE7-1C8362B81C65}.Release|x64.ActiveCfg = Release|x64
+		{22A7629B-1C6C-4DE2-ABE7-1C8362B81C65}.Release|x64.Build.0 = Release|x64
+		{22A7629B-1C6C-4DE2-ABE7-1C8362B81C65}.Release|x86.ActiveCfg = Release|x86
+		{22A7629B-1C6C-4DE2-ABE7-1C8362B81C65}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

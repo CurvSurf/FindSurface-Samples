@@ -1,0 +1,4 @@
+build/
+*.suo
+*.lib
+*.dll

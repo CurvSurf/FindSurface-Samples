@@ -1,0 +1,8 @@
+build/
+*.suo
+*.lib
+*.dll
+.vs/
+*.db
+*.opendb
+*.exe
