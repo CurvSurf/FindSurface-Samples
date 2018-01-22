@@ -1,24 +1,26 @@
-# FindSurface-Samples / BasicSample / Readme.md
-**Curv*Surf* FindSurface™ SDK** Samples - BasicSample
+# FindSurface-Samples / Readme.md
+**Curv*Surf* FindSurface™ SDK** Samples
 
 Overview
 --------
 
-This sample source code presents the simplest usage of FindSurface SDK.
+**Curv*Surf* FindSurface™ SDK** is a dimensional (3D) point cloud processing library.
 
-The sample program reads sample.xyz file and automatically finds primitives around pre-defined positions.
+The SDK allows the development of solutions for automated 3D geometry recognizing, measuring, and tracking applications. The library allows a user to detect geometry features such as Plane, Sphere, Cylinder, Cone, and Torus as well as their geometric parameters (position, orientation, size, radius, volume, and etc.).
 
-**The sample only runs with our FindSurface SDK library files (FindSurface.dll, etc.).**
-
-**You must either [request a free trial](http://developers.curvsurf.com/licenses.jsp) or [purchase a license](https://developers.curvsurf.com/licenses.jsp) to activate the library files.**
+The samples listed above are designed to demonstrate how to develop an application by using our FindSurface SDK.
 
 
-Quick Start
-------------
+GETTING STARTED
+---------------
 
-### Getting Started to develop your own application
+1. Register as a developer in our [developers website](https://developers.curvsurf.com/register.jsp).
 
-Our [developer website](https://developers.curvsurf.com/documentation.jsp) provides detailed instruction on how to develop by using FindSurface SDK.
+2. Either get a trial license or purchase standard/pro license of the SDK in [developers website](https://developers.curvsurf.com/) in order to run the samples.
+
+3. Download the SDK following the instructions on the [Documentation](https://developers.curvsurf.com/documentation.jsp) > Installation.
+
+4. Follow our SDK guidance provided on our [developer website](https://developers.curvsurf.com/documentation.jsp).
 
 
 CONTACT

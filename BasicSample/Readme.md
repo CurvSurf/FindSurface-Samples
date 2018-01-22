@@ -4,8 +4,9 @@
 Overview
 --------
 
-This sample presents the simplest usage of FindSurface SDK.
+This sample source code presents the simplest usage of FindSurface SDK.
 
+The sample program reads sample.xyz file and automatically finds primitives around pre-defined positions.
 
 **The sample only runs with our FindSurface SDK library files (FindSurface.dll, etc.).**
 
