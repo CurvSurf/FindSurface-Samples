@@ -8,8 +8,10 @@ Overview
 
 The SDK allows the development of solutions for automated 3D geometry recognizing, measuring, and tracking applications. The library allows a user to detect geometry features such as Plane, Sphere, Cylinder, Cone, and Torus as well as their geometric parameters (position, orientation, size, radius, volume, and etc.).
 
-The samples listed above are designed to demonstrate how to develop an application by using our FindSurface SDK.
+The samples listed below are designed to demonstrate how to develop an application by using our FindSurface SDK.
 
+- [BasicSample](https://github.com/CurvSurf/FindSurface-Sample-BasicSample)
+- [SimpleGUI](https://github.com/CurvSurf/FindSurface-Sample-SimpleGUI)
 
 GETTING STARTED
 ---------------
