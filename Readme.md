@@ -12,6 +12,7 @@ The samples listed below are designed to demonstrate how to develop an applicati
 
 - [BasicSample](https://github.com/CurvSurf/FindSurface-Sample-BasicSample)
 - [SimpleGUI](https://github.com/CurvSurf/FindSurface-Sample-SimpleGUI)
+- [FindSurfaceRevitPlugin](https://github.com/CurvSurf/FindSurface-Sample-FindSurfaceRevitPlugin)
 
 GETTING STARTED
 ---------------
